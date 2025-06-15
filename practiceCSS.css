@@ -1,0 +1,135 @@
+body {
+  background-color: #b0c4de; /* light steel blue */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: bold;
+}
+h1 {
+  text-align: center;
+  font-family: cursive;
+}
+h3 {
+  text-align: center;
+}
+
+#degreeTable {
+  margin: 0 auto;
+  border-collapse: separate;
+  border-spacing: 2px;
+  border: 2px solid gray; /* This is the border line */
+}
+.col15 {
+  width: 15%;
+}
+
+.col18 {
+  width: 18%;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/* Column background colors */
+.col-business {
+  background-color: lightblue;
+}
+
+.col-creation {
+  background-color: lightcoral;
+}
+
+.col-cyber {
+  background-color: palegoldenrod;
+}
+
+.col-digital {
+  background-color: lightgreen;
+}
+
+.col-game {
+  background-color: lightgrey;
+}
+
+.col-software {
+  background-color: violet;
+}
+.no-bullets {
+  list-style-type: none;
+  text-align: center;
+}
+/* Style the links inside the pill navigation menu */
+.pill-nav a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.pill-nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.pill-nav a.active {
+  background-color: dodgerblue;
+  color: white;
+}/* W3Schools was used to help with coding of this project https://www.w3schools.com/howto/howto_css_pill_nav.asp*/
+
+
+.bottom-image {
+  display: block;
+  margin: 40px auto 0 auto; /* centers the image and adds top space */
+  width: 50%; /* makes the image half its original width */
+  position: relative;
+  bottom: 0;
+}
+
+.news-section {
+  background-image: url('newsimg.jpg'); /* your saved image */
+  background-size: cover;
+  background-position: center;
+  color: white; /* Or dark text if image is light */
+  padding: 60px;
+}
+.outerEdge{
+            border: 3px solid black;
+        }
+        .content{
+            /* the width and height of the content - the text */
+            width: 200px;
+            /*height: 100px; 
+            /* set the background color so we can track the inner div size */
+            background-color: lemonchiffon;
+            font-family: fantasy;
+            border: 3px dotted royalblue;
+
+            padding: 90px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            margin:auto;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            margin-bottom: auto;
+        }
+        footer {
+          margin-top: 90px;
+          margin-right: 10px;
+          margin-bottom: 20px;
+          margin-left: 10px;
+          
+        }
